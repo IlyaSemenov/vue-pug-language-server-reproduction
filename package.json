@@ -1,0 +1,19 @@
+{
+  "name": "vue-pug-language-server-reproduction",
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@9.7.0",
+  "engines": {
+    "node": "22",
+    "pnpm": "9.7"
+  },
+  "scripts": {
+    "dev": "nuxt dev"
+  },
+  "devDependencies": {
+    "@vue/language-plugin-pug": "2.0.20",
+    "nuxt": "^3.12.4",
+    "pug": "^3.0.3",
+    "typescript": "^5.5.4"
+  }
+}
